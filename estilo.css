@@ -1,0 +1,92 @@
+:root {
+    --ink: #1b1630;
+    --violet: #6d4aff;
+    --mint: #19c3a0;
+    --mist: #f4f2fb;
+    --bs-body-font-family: 'Nunito', system-ui, sans-serif;
+    --bs-body-color: var(--ink);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+    font-family: 'Sora', sans-serif;
+    letter-spacing: -.01em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: var(--ink);
+}
+
+.navbar .nav-link {
+    color: #d9d4ee;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #fff;
+}
+
+.btn-violet {
+    background: var(--violet);
+    border-color: var(--violet);
+    color: #fff;
+}
+
+.btn-violet:hover {
+    background: #5636e0;
+    border-color: #5636e0;
+    color: #fff;
+}
+
+.hero {
+    background: var(--ink);
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: clamp(2rem, 6vw, 3.6rem);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.foto {
+    width: min(260px, 70vw);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid var(--violet);
+}
+
+.bg-mist {
+    background: var(--mist);
+}
+
+.page-title {
+    background: var(--mist);
+}
+
+.proj-img {
+    max-height: 260px;
+    object-fit: cover;
+    width: 100%;
+}
+
+footer {
+    background: var(--ink);
+    color: #cfc9e6;
+}
+
+a:focus-visible,
+button:focus-visible,
+.form-control:focus-visible {
+    outline: 3px solid var(--mint);
+    outline-offset: 2px;
+}

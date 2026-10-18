@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre mí | Ximena Cortez</title>
+  <meta name="description" content="Información personal, académica, intereses, hobbies y experiencia laboral de Ximena Cortez, estudiante de Desarrollo de Software Multiplataforma.">
+  <meta name="keywords" content="Ximena Cortez, sobre mí, estudiante, intereses, experiencia laboral, desarrollo de software">
+  <meta name="author" content="Ximena Cortez">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link href="../css/estilo.css" rel="stylesheet">
+  <link href="../favicon_io (2)/favicon.ico" rel="icon">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Ximena</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link active" href="Sobremi.html" aria-current="page">Sobre mí</a></li>
+        <li class="nav-item"><a class="nav-link" href="Proyectos.html">Proyectos</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="page-title py-4"><div class="container"><h1 class="h2 mb-0">Sobre mí</h1></div></div>
+
+<main>
+  <!-- Sección Sobre mí -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-lg-5">
+          <h2 class="h3">¿Quién soy?</h2>
+          <p>Mi nombre es Ximena de la Luz Cortez Aguirre, tengo 20 años. Soy estudiante de Desarrollo de Software Multiplataforma en la Universidad Tecnológica de León, cursando 4.º cuatrimestre.</p>
+          <p>Me interesa la tecnología, la programación y el desarrollo web. Me gusta aprender cosas nuevas y mejorar mis conocimientos.</p>
+          <div class="d-flex flex-wrap gap-2">
+            <span class="badge text-bg-primary">Desarrollo web</span>
+            <span class="badge text-bg-primary">Programación</span>
+            <span class="badge text-bg-primary">Diseño de páginas</span>
+            <span class="badge text-bg-primary">Bases de datos</span>
+          </div>
+        </div>
+        <div class="col-12 col-lg-7">
+          <div class="accordion" id="acc">
+            <div class="accordion-item">
+              <h2 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1">Mis intereses</button></h2>
+              <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#acc"><div class="accordion-body">Desarrollo web, programación, diseño de páginas y bases de datos. Aprendo rápido y le pongo mucho empeño.</div></div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">Mi objetivo</button></h2>
+              <div id="a2" class="accordion-collapse collapse" data-bs-parent="#acc"><div class="accordion-body">Seguir aprendiendo y desarrollar mis habilidades para crear proyectos relacionados con la tecnología.</div></div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">Mis hobbies</button></h2>
+              <div id="a3" class="accordion-collapse collapse" data-bs-parent="#acc"><div class="accordion-body">Me encantan las series, los libros de cualquier tema y los videojuegos.</div></div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4">Experiencia laboral</button></h2>
+              <div id="a4" class="accordion-collapse collapse" data-bs-parent="#acc"><div class="accordion-body">Trabajé en la toma de fotografías para un evento en el Poliforum, con los de la Cámara360. Es mi único trabajo formal hasta el momento.</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="py-4 text-center"><div class="container"><small>&copy; 2026 Ximena Cortez · Universidad Tecnológica de León · Hecho con Bootstrap 5</small></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
